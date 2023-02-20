@@ -1,0 +1,18 @@
+[package]
+name = "asteroids"
+version = "0.1.0"
+authors = ["Brighton Sikarskie <bsikar@tuta.io>"]
+edition = "2018"
+description = "A simple GUI rust asteroids game"
+readme = "README.md"
+homepage = "https://bsikar.github.io/asteroids/"
+repository = "https://github.com/bsikar/asteroids"
+license = "MIT"
+keywords = ["gamedev", "graphics", "game", "gui"]
+categories = ["games"]
+
+[dependencies]
+macroquad = "0.3.1"
+rand = { version = "0.8.5" }
+
+[features]
